@@ -1,0 +1,53 @@
+/* Section Styling */
+
+#title{
+    background-color: #ff4c68;
+}
+h1{
+    font-family:"Montserrat";
+    size: 3.5em;
+    line-height: 1.5;
+}
+.container-fluid{
+    padding:3% 15%
+}
+
+.navbar-brand{
+    font-family: "ubuntu";
+    size: 2.5rem;
+    font-weight: bold;
+}
+
+body{
+    font-family:"Montserrat" ;
+}
+.navbar{
+    padding: 0 0 4.5rem;
+}
+.nav-item{
+    padding:0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: "Montserrat-Light";
+}
+
+/* Download-buttons */
+
+.download-button{
+    margin:5% 3% 5% 0;
+}
+
+/* Iphone-image */
+
+.title-image{
+    width: 60%;
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+    -ms-transition: -ms-transform .8s ease-in-out;
+    transition: transform .8s ease-in-out;
+}
+.title-image:hover{
+    transform:rotate(360deg);
+    -ms-transform:rotate(360deg); 
+    -webkit-transform:rotate(360deg);
+}
